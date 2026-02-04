@@ -29,7 +29,7 @@ const Loginform = ({ formFields, onSetFormFields }) => {
       setError("");
       navigate("/dashboard");
     } else {
-      setError("Credentials not matched");
+      setError("User does not exist.");
     }
     setTimeout(() => {
       setError("");
